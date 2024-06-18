@@ -1,4 +1,7 @@
 # Parse GME and XRT Data from FTD Data From SEC
 
-## Example how to run:
-`python TrackSkeleton.py "C:\Location\Of\Zip\cnsfails202405b.zip"`
+## Example how to run for individual zip:
+`python .\ProcessZip.py "C:\Location\Of\Individual\Zip.zip"`
+
+## Example how to run for multiple zips:
+`python .\ProcessAllZips.py "C:\Location\Of\Multiple\Zips"`
